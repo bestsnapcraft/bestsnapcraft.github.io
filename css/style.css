@@ -15,7 +15,7 @@ section {
 .h2-about {
   color: #2c4666;
   font-family: iceland;
-  text-shadow: #87a7ff 0px 0px 10px;
+  text-shadow: #fff 0px 0px 10px;
 }
 
 #projects {
@@ -25,7 +25,7 @@ section {
 
 .h2-project {
   font-family: iceland;
-  text-shadow: #fff 0px 0px 10px;
+  text-shadow: #87a7ff 0px 0px 10px;
 }
 
 .h2-contact {
