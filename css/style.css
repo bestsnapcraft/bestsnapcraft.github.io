@@ -1,0 +1,77 @@
+.navbar {
+  background-color: #18375d;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.jumbotron {
+  padding-bottom: 1rem;
+  background-color: #2c4666;
+  text-align: center;
+}
+
+.h2-about {
+  color: #2c4666;
+  font-family: iceland;
+  text-shadow: #87a7ff 0px 0px 10px;
+}
+
+#projects {
+  background-color: #2c4666;
+  text-align: center;
+}
+
+.h2-project {
+  font-family: iceland;
+  text-shadow: #87a7ff 0px 0px 10px;
+}
+
+.h2-contact {
+  color: #2c4666;
+  font-family: iceland;
+  text-shadow: #87a7ff 0px 0px 10px;
+}
+
+.gmail {
+  text-decoration: none;
+  color: #2c4666;
+}
+
+.gmail:hover {
+  border: 5px solid #2c4666;
+  border-radius: 5px;
+  background-color: #2c4666;
+  color: azure;
+  transform: rotateY(2);
+  transition: all 0.5s;
+}
+
+.whatsapp {
+  text-decoration: none;
+  color: #2c4666;
+}
+
+.whatsapp:hover {
+  border: 5px solid #2c4666;
+  border-radius: 5px;
+  background-color: #2c4666;
+  color: azure;
+  transform: rotateY(2);
+  transition: all 0.5s;
+}
+
+.instagram {
+  text-decoration: none;
+  color: #2c4666;
+}
+
+.instagram:hover {
+  border: 5px solid #2c4666;
+  border-radius: 5px;
+  background-color: #2c4666;
+  color: azure;
+  transform: rotateY(2);
+  transition: all 0.5s;
+}
