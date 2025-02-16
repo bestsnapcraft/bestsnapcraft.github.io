@@ -1,4 +1,4 @@
-.navbar {
+nav {
   background-color: #18375d;
 }
 
@@ -8,8 +8,11 @@ section {
 
 .jumbotron {
   padding-bottom: 1rem;
-  background-color: #2c4666;
   text-align: center;
+}
+
+.jumbotron .info {
+  background-color: #2c4666;
 }
 
 .h2-about {
@@ -19,7 +22,6 @@ section {
 }
 
 #projects {
-  background-color: #2c4666;
   text-align: center;
 }
 
@@ -34,20 +36,6 @@ section {
   text-shadow: #fff 0px 0px 10px;
 }
 
-.gmail {
-  text-decoration: none;
-  color: #2c4666;
-}
-
-.gmail:hover {
-  border: 5px solid #2c4666;
-  border-radius: 5px;
-  background-color: #2c4666;
-  color: azure;
-  transform: rotateY(2);
-  transition: all 0.5s;
-}
-
 .whatsapp {
   text-decoration: none;
   color: #2c4666;
@@ -59,7 +47,7 @@ section {
   background-color: #2c4666;
   color: azure;
   transform: rotateY(2);
-  transition: all 0.5s;
+  transition: all 0.5s ease-in-out;
 }
 
 .instagram {
@@ -73,5 +61,5 @@ section {
   background-color: #2c4666;
   color: azure;
   transform: rotateY(2);
-  transition: all 0.5s;
+  transition: all 0.5s ease-in-out;
 }

@@ -1,5 +1,5 @@
 const scriptURL = 'https://script.google.com/macros/s/AKfycbwLHtKuuZkvSmjecOGpj4qVMtWE-9FEmiP6gkhLfYhBPFHwy8woX18PBdUkOAP7ax4uGA/exec';
-const form = document.forms['wpu-contact-from'];
+const form = document.forms['contact-from'];
 const btnKirim = document.querySelector('.btn-kirim');
 const btnLoading = document.querySelector('.btn-loading');
 const myAlert = document.querySelector('.my-alert');
