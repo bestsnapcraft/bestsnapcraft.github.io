@@ -1,9 +1,16 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
 nav {
   background-color: #18375d;
 }
 
 section {
   padding-top: 5rem;
+  overflow: hidden;
 }
 
 .jumbotron {
@@ -28,6 +35,13 @@ section {
 .h2-project {
   font-family: iceland;
   text-shadow: #87a7ff 0px 0px 10px;
+}
+
+.h2-pricelist {
+  color: #2c4666;
+  text-align: center;
+  font-family: iceland;
+  text-shadow: #fff 0px 0px 10px;
 }
 
 .h2-contact {
