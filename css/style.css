@@ -5,6 +5,30 @@ body {
   padding: 0;
 }
 
+.container-wlc-scr {
+  background-color: #18375d;
+  height: 100vh;
+  overflow: hidden;
+}
+#motionPath {
+  overflow: visible;
+  height: 100%;
+  max-width: 100%;
+}
+
+#motionPath path {
+  stroke-width: 2;
+  stroke: gray;
+}
+
+#motionPath .astronaut {
+  visibility: hidden;
+}
+
+.main-content {
+  display: none;
+}
+
 nav {
   background-color: #18375d;
 }
@@ -35,7 +59,7 @@ section {
 
 .h2-project {
   font-family: iceland;
-  text-shadow: #87a7ff 0px 0px 10px;
+  text-shadow: #2c4666 0px 0px 10px;
 }
 
 .h2-pricelist {
