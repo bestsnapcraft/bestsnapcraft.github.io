@@ -18,7 +18,7 @@
 
     <title>Best Snap Craft</title>
   </head>
-  <body>
+  <body id="body">
     <!-- Welcome Screen -->
     <div id="container-wlc-scr" class="container-wlc-scr">
       <svg id="motionPath" viewBox="-20 0 557 190">
@@ -360,8 +360,8 @@
           duration: 5,
           onComplete: () => {
             document.getElementById('container-wlc-scr').style.display = 'none';
-            document.getElementById('main-content').style.display = 'block';
-            gsap.from('#main-content', { duration: 1, opacity: 0 });
+            document.getElementById('main-content').style.removeProperty = 'display';
+            gsap.from('#main-content', { duration: 1, opacity: 0, y: 100 });
           },
         });
       }
