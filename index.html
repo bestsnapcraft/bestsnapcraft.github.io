@@ -360,7 +360,7 @@
           duration: 5,
           onComplete: () => {
             document.getElementById('container-wlc-scr').style.display = 'none';
-            document.getElementById('main-content').style.removeProperty = 'display';
+            document.getElementById('main-content').style.display = 'block';
             gsap.from('#main-content', { duration: 1, opacity: 0, y: 100 });
           },
         });
@@ -381,7 +381,7 @@
         },
       });
 
-      // MotionPathHelper.create('.astronaut');
+      MotionPathHelper.create('.astronaut');
     </script>
 
     <!-- JS Boostrap -->
